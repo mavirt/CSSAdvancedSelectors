@@ -1,0 +1,30 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.button{
+    height:50px;
+    width: 100px;
+    background-color: darkgray;
+    border:  3px black;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: blue;
+    border-width: 3px;
+}
+.button:active{
+    height:100px;
+    width: 100px;
+    background-color: #042193;
+    border-width: 1px;
+    border-radius: 1px;
+}
